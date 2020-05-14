@@ -36,7 +36,6 @@ const VideoPlayerReducer = (
       });
 
     case VideoPlayerAction.GET_MODULE_DETAILS_SUCCESS:
-      console.log(action.moduleDetails);
       return Object.assign({}, state, {
         getModuleDetailsLoading: false,
         getModuleDetails: action.moduleDetails
@@ -53,7 +52,6 @@ const VideoPlayerReducer = (
       });
 
     case VideoPlayerAction.GET_EXPERT_DETAILS_SUCCESS:
-      console.log(action.EXPERTDetails);
       return Object.assign({}, state, {
         getExpertDetailsLoading: false,
         getExpertDetails: action.expertDetails
