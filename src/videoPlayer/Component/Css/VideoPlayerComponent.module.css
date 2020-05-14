@@ -1,0 +1,140 @@
+.base {
+  position: relative;
+  max-width: 1440px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.videoPlayer {
+  width: 55%;
+}
+
+.videoPlayerModuleWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.moduleCardContent {
+  display: flex;
+  align-items: center;
+}
+.CardImageRound {
+  border-radius: 50%;
+  -webkit-box-shadow: 0px -1px 5px 0px #757474;
+  -moz-box-shadow: 0px -1px 5px 0px #757474;
+  box-shadow: 0px -1px 5px 0px #757474;
+}
+.moduleCardContentTitle {
+  margin-left: 15px;
+  color: #3588d7;
+  text-align: left;
+  position: relative;
+  width: 100%;
+  min-height: 36px;
+  line-height: 1.5;
+}
+.moduleTitle {
+  color: #d14f81;
+}
+.moduleListWrapper {
+  box-shadow: 0px 0px 3px 0px #757474;
+  border-radius: 20px;
+  width: 100%;
+  background: #ffffff;
+  height: 500px;
+  overflow: auto;
+}
+.timerClock {
+  position: absolute;
+  right: 10px;
+  bottom: -14px;
+  color: #757474;
+  font-size: 14px;
+  font-weight: 400;
+}
+.moduleCardContentWrapper {
+}
+.moduleListContent {
+  width: 40%;
+  padding: 20px;
+  border: 1px solid #dedede;
+  border-radius: 15px;
+  background: #f6f6f6;
+}
+.moduleCard {
+  padding: 10px;
+}
+.wrapper {
+  min-height: 70px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #dedede;
+  box-shadow: 0px -1px 4px 0px #757474;
+  border-radius: 25px;
+}
+.moduleDetailsCardContent {
+  min-height: 70px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #dedede;
+  box-shadow: 0px -1px 4px 0px #757474;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+.mainLoader {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background: #f4f4f4;
+  opacity: 0.7;
+}
+.moduleListWrapper::-webkit-scrollbar {
+  display: block;
+  background-color: #c4c4c4;
+  width: 5px;
+}
+.moduleListWrapper::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0, 0.5);
+}
+.expertsCardWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+.expertsCard {
+  width: 16%;
+}
+.expertImageNameWrapper {
+  max-width: 125px;
+}
+.expertImageCard {
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px 0px #757474;
+}
+.doctorName {
+  font-size: 12px;
+  font-weight: 500;
+  color: #3588d7;
+  margin-top: 10px;
+}
+.expertDesignation {
+  font-size: 12px;
+  font-weight: 500;
+  color: #d14f81;
+  margin-top: 10px;
+  text-align: center;
+}
+.expertDetailsWrapper {
+  margin-top: 30px;
+}
+.expertTitle {
+  text-align: left;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #3588d7;
+  width: max-content;
+  color: #222222;
+}
