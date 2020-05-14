@@ -67,8 +67,8 @@ export default class VideoPlayerComponent extends Component {
   showExperts = () => {
     return this.props.expertDetails.map((expert, id) => {
       return (
-        <div className={styles.expertsCard}>
-          <div class={styles.expertImageNameWrapper}>
+        <div className={styles.expertsCard} key={id}>
+          <div className={styles.expertImageNameWrapper}>
             <div className={styles.expertsIamge}>
               {" "}
               <img
